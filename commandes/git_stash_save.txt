@@ -1,0 +1,2 @@
+﻿git stash save est l'équivalent de d'un git stash auquel on n'aurait pas précisé où classer la sauvegarde . Cette commande va stocker le travail en cours dans un dossier nommé "WIP on nom_de_la_branche". 
+Cependant, ajouter à la fin de la ligne " [<message>]" changera le nom de l'emplacement de stockage en "message" 
