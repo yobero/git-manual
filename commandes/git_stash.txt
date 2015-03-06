@@ -1,0 +1,1 @@
+﻿La commande git stash permet de stocker le dossier et l'index tout en nettoyant le dossier de travail. Elle sauvegarde les modifications locales tout en permettant de revenir au commit de base.
