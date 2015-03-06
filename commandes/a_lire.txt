@@ -2,9 +2,9 @@ pour l'insant on fait un fichier par sous-commande et on assemblera
 la totalité une fois fini.
 
 commandes à faire:
--git stash (général)
--git stash save
--git stash apply
+-git stash (général) (cricri3007)
+-git stash save (cricri300)
+-git stash apply (cricri3007)
 -git stash list
 -git stash show
 -git stash drop
