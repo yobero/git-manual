@@ -1,0 +1,16 @@
+pour l'insant on fait un fichier par sous-commande et on assemblera 
+la totalité une fois fini.
+
+commandes à faire:
+-git stash (général)
+-git stash save
+-git stash apply
+-git stash list
+-git stash show
+-git stash drop
+
+commandes à relire:
+
+
+commandes finies:
+
