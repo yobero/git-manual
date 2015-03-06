@@ -4,7 +4,7 @@ la totalité une fois fini.
 commandes à faire:
 
 
--git stash apply (cricri3007)
+
 -git stash list
 -git stash show
 -git stash drop
@@ -12,6 +12,7 @@ commandes à faire:
 commandes à relire:
 -git stash (général) (cricri3007)
 -git stash save (cricri300)
+-git stash apply (cricri3007)
 
 commandes finies:
 
