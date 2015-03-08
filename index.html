@@ -5,19 +5,29 @@
 		<title>Le fantastique guide de Git</title>
 		<link rel="icon" type="image/jpg" href="u5hoG95.jpg" />
 		<meta charset="UTF-8">
-		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" type="text/css">
 	</head>
+	
 	<body>
-		
-		<h1>Le fantastique guide de Git</h1>
-		<section id="corps"><nav>
-			<ul>
-				<li><a href="index.html">Accueil</a></li>
-				<li><a href="commandes.html">Commandes Git</a></li>
-			</ul>
-		</nav>
-		
+		<div id="titre"> 
+			<h1>Le fantastique guide de Git</h1>
+		</div>
+		<div id="nav">
+				<nav>
+					<ul>
+						<li id="nolastmen"><a href="index.html">Accueil</a></li>
+						<li><a href="commandes.html">Commandes Git</a>
+							<ul class="subnav">
+								<li> <a href="*">checkout </a> </li>
+								<li> <a href="*"> fetch </a> </li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+		</div>
+		<div id="corps">
 		<section class="description">
+			<h3> > Qu'est ce que Git ? </h3>
 			<p>Git est un logiciel de contrôle de version utilisé pour le développement de projet, souvent logiciel. Les choses suivant sont les principales fonctionnalités de Git : </p>
 			<ul>
 				<li>Les<a href="#app_commit"> commits</a> sont les mise à jour des fichiers modifiés depuis le dernier commit. Ce sont les unités de sauvegarde de git.</li>
@@ -29,8 +39,10 @@
 			<section id="app_commit">Les commits sont l'ensemble des modifications effectués sur un projet. Les commit sont classés par date (et se voient attribués un numéro de révision unique) et sont une suite <i>incrémentale</i> des changements appliqués sur le projet (ajout, modification ,suppression de fichiers). Tout est gardé et récupérable qu'elle que soient les modifications apportées entre temps.<a href="./commandes.html#commit">Les commits sont fait avec la commande commit.</a></section>
 			<section id="app_branch"></section>
 		</section>
-	</section>
-	<footer><p>par Damien Thenot, Maxence Joulin.</p></footer>
+	</div>
+	<footer>
+	<p> © Groupe d'IN202 2014-2015 UVSQ - Index par Damien Thenot, Maxence Joulin.</p>
+	</footer>
 	</body>
 
 </html>
