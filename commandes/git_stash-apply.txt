@@ -1,1 +1,0 @@
-La commande "git stash apply [--index] [-q|--quiet] [<stash>]" sert à récupérer le dossier stocké dans "stash" et à le ramener à l'étape de travail présente. Si rien n'est tapé à la place de "stash", récupérera le dernier dossier stocké.
