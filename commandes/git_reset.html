@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<head>
+	<title>git_reset</title>
+	<meta charset="UTF-8">
+	<link href="css/commandes.css" rel="stylesheet" type"text/css">
+</head>
+
+<body>
+	<nav>
+		<p href="./index.html">Menu</p>
+	</nav>
+	
+	<h1 id="titreCommande">git_reset --soft</h1>
+	
+	<section class="descriptif">
+		<p>Descriptif de la commande détaillé</p>
+		<p>git reset --soft <br>
+		Cette commande ne touche pas le fichier d'index ( zone de transit où les nouveaux commits sont préparés) ou même l'espace de travail (les fichiers qui sont en train d'être modifiés) mais réinitialise le dernier commit, comme toutes les options de git reset.<br>
+		Les fichiers modifiés restent des «Changes to be commited» (ou changement qu'il faut commit), comme <a href=«git_status.html» git status> dirait si bien. 	
+		</p>
+	</section>
+	
+	<section class="affichage">
+		<h2>Syntaxe</h2>
+			<code>git reset --soft</code>
+		<h2>Affichage</h2>
+			<p>Par exemple, pour défaire et refaire un commit</p>
+			<code> git commit ...
+ 			git reset --soft HEAD^      
+ 			edit                        
+ 			git commit -a -c ORIG_HEAD  
+			</code>
+	<section/>
+	
+	<h1 class="titreCommande">git reset --mixed</h1>
+	
+	<section class="descriptif">
+		<p>Descriptif de la commande détaillé</p>
+	</section>
+	
+	<section class="affichage">
+		<h2>Syntaxe</h2>
+			<code>git reset --mixed</code>
+		<h2>Affichage</h2>
+			<code>Exemple de l'affichage de la commande dnas le terminal</code>
+	<section/>
+	
+	<h1 class="titreCommande">git reset --hard</h1>
+	
+	<section class="descriptif">
+		<p>Descriptif de la commande détaillé</p>
+	</section>
+	
+	<section class="affichage">
+		<h2>Syntaxe</h2>
+			<code>git reset --hard</code>
+		<h2>Affichage</h2>
+			<code>Exemple de l'affichage de la commande dnas le terminal</code>
+	<section/>
+	
+	<h1 class="titreCommande">git reset --keep</h1>
+	
+	<section class="descriptif">
+		<p>Descriptif de la commande détaillé</p>
+	</section>
+	
+	<section class="affichage">
+		<h2>Syntaxe</h2>
+			<code>git reset --keep</code>
+		<h2>Affichage</h2>
+			<code>Exemple de l'affichage de la commande dnas le terminal</code>
+	<section/>
+	
+	<footer>		
+		<p>Git Manual - Par Boubacar Kane, chaouki08, ThomasBrebant et Iwantaponey</p>
+	</footer>
+	
+</body>
