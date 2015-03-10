@@ -88,21 +88,26 @@
     
     
     <section class="affichage">
-            <code><h4> git stash show </h4></code>
+            <code><h4> git stash drop </h4></code>
             
              <section>
-                    Montre les changements enregistré dans le stash entre l'etat stashé et le parent 
-                    original.quand le stash n'est pas donné,il montre le dernier.par défaut la commande 
-                    montre le diffstat mais peut accepter touts les formats connu de git diff.
-                    pour voir les autres stash il faut utiliser: git stash show -p stash@{1}
+                abandonne le stash selectioné.
+                
              </section>
              
         <h4>Affichage</h4>
             <code> <div class="code">
-			$ git stash show -p stash@{0} | git apply -R
+			$ git stash list
+			stash@{0}: WIP on master: 049d078 added the index file
+			stash@{1}: WIP on master: c264051... Revert "added file_size"
+			stash@{2}: WIP on master: 21d80a5... added number to log
+			$ git stash drop stash@{0}
+			Dropped stash@{0} (364e91f3f268f0900bc3ee613f9f733e82aaed43)
             </code>
             </div>
     </section>
+    
+    
     
     </div>
     <footer>        
@@ -119,10 +124,11 @@ commandes à finir:
 -git stash (général) (cricri3007)
 -git stash save (cricri300)
 -git stash apply (cricri3007)
--git stash show
+
 
 commandes a relire:
-
+-git stash show
 -git stash list
+
 commandes finies:
 -->
