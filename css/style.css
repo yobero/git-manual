@@ -2,7 +2,7 @@
 
 /* body */
 body{	
-	background-image: url("images/skulls.png");
+	background-image: url("../images/skulls.png");
 	font-family: Open Sans Condensed;
 	}
 /* divs de la page */
@@ -67,7 +67,7 @@ nav li:hover .subnav {
 .subnav li {
 	display: inherit;}
 	
-#nolastmen{
+.nolastmen{
 	border-right: solid 2px white;
 }
 #nav{
@@ -99,13 +99,8 @@ nav li:hover .subnav {
 /*animation*/
 @keyframes titrehover
 {
-	25%{
-	color:#ecf0f1;
-	}
+	
 	50%{
-	color:#bdc3c7;
-	}
-	75%{
 	color:#95a5a6;
 	}
 	100%{
@@ -113,13 +108,8 @@ nav li:hover .subnav {
 	}
 }
 @-webkit-keyframes titrehover{	
-	25%{
-	color:#ecf0f1;
-	}
+
 	50%{
-	color:#bdc3c7;
-	}
-	75%{
 	color:#95a5a6;
 	}
 	100%{
@@ -127,13 +117,7 @@ nav li:hover .subnav {
 	}
 }
 @-moz-keyframes titrehover{
-	25%{
-	color:#ecf0f1;
-	}
 	50%{
-	color:#bdc3c7;
-	}
-	75%{
 	color:#95a5a6;
 	}
 	100%{
@@ -168,6 +152,15 @@ h1{
 
 		color: orange;
 	}
+#corps h2{
+
+	color: orange;
+	font-size: 5px;
+	}
+#corps h4{
+	color: orange;
+	font-size: 25px;
+	}
 footer{
 	background-color:#2c3e50;
 	margin-left: 10%;
@@ -182,5 +175,22 @@ footer{
 	padding-bottom: 25px;
 }
 footer p{
+	padding-top: 15px;
 	color: white;
 	text-align: center;
+}
+.code{
+	background-color: black;
+	color: white;
+	border : solid 2px grey;
+	padding: 5px;
+	}
+#titre img{
+
+	width: 150px;
+	height: 150px;
+}
+
+#titre a {
+	text-decoration: none;
+	}
