@@ -1,103 +1,116 @@
 <!DOCTYPE HTML>
 <head>
-    <title>Nom de la commande</title>
+    <title> Git Stash</title>
     <meta charset="UTF-8">
     <link href="../css/style.css" rel="stylesheet" type"text/css">
 </head>
 
 <body>
+	<div id="titre"> 
+			<h1>Le fantastique guide de Git</h1>
+	</div>
+	<div id="nav">
     <nav>
-        <p href="./index.html">Menu</p>
+        <ul> 
+		<li> <a href="../index.html">Menu </a> </li>
+		</ul>
     </nav>
-
-    <h1 id="titreCommande">git stash</h1>
-
+	</div>
+	<div id="corps">
+		
+		<h3>la commande git stash</h3>
     <section class="descriptif">
-        <p>La commande git stash permet de stocker le dossier et l'index tout 
+        La commande git stash permet de stocker le dossier et l'index tout 
         en nettoyant le dossier de travail. Elle sauvegarde les modifications locales 
-        tout en permettant de revenir au commit de base.</p>
+        tout en permettant de revenir au commit de base.
     </section>
 
     <section class="affichage">
-        <h2>Syntaxe</h2>
+        <h4>Syntaxe</h4>
             <code>git stash</code>
-        <h2>Affichage</h2>
-            <code>
+        <h4>Utlisation</h4>
+            <section>
             La commande git stash permet de stocker le dossier et l'index tout en nettoyant
             le dossier de travail. Elle sauvegarde les modifications locales tout en permettant 
             de revenir au commit de base.
-            </code>
+            </section>
     <section/>
 
     <section class="affichage">
-        <h2>Syntaxe</h2>
-            <code>
+        
+			<code><h4> git stash apply </h4></code>
+            <section>
             La commande "git stash apply [--index] [-q|--quiet] [<stash>]" sert à 
             récupérer le dossier stocké dans "stash" et à le ramener à 
             l'étape de travail présente. Si rien n'est tapé à la place 
             de "stash", récupérera le dernier dossier stocké
-            .</code>
-        <h2>Affichage</h2>
+            .</section>
+        <h4>Affichage</h4>
+             <div class="code">
             <code>Exemple de l'affichage de la commande dnas le terminal</code>
+            </div>
     <section/>
     
     
         <section class="affichage">
-        <h2>Syntaxe</h2>
-            <code>
+        <code><h4> git stash save </h4></code>
+            <section>
             git stash save est l'équivalent de d'un git stash auquel on n'aurait
             pas précisé où classer la sauvegarde . Cette commande va stocker le travail en
             cours dans un dossier nommé "WIP on nom_de_la_branche". 
             Cependant, ajouter à la fin de la ligne " [<message>]" changera le nom de 
             l'emplacement de stockage en "message" 
-            .</code>
-        <h2>Affichage</h2>
+            .</section>
+        <h4>Affichage</h4>
+         <div class="code">
             <code>Exemple de l'affichage de la commande dnas le terminal</code>
+            </div>
     <section/>
     
     
     <section class="affichage">
-        <h2>Syntaxe</h2>
-            <code>git stash list </code>
+            <code><h4> git stash list </h4></code>
             
-             <code>liste les stashs que l'on a actuellement fait.chaque stash est listé et 
+             <section>
+                    liste les stashs que l'on a actuellement fait.chaque stash est listé et 
                     nommé.par exemple stash@{0} est le dernier stash, et stash@{1} est celui avant.
                     il y a le nom de la branche utilisé quand le stash a été fait et une courte description.
-             </code>
+             </section>
              
-        <h2>Affichage</h2>
-            <code>
-            stash@{0}: WIP on submit: 6ebd0e2... Update git-stash documentation
+        <h4>Affichage</h4>
+             <div class="code"><code>
+            stash@{0}: WIP on submit: 6ebd0e2... Update git-stash documentation<br>
             stash@{1}: On master: 9cc0589... Add git-stash
             </code>
-    <section/>
+            </div>
+    </section>
     
     
     
     <section class="affichage">
-        <h2>Syntaxe</h2>
-            <code>git stash show</code>
+            <code><h4> git stash show </h4></code>
             
-             <code>
+             <section>
                     Montre les changements enregistré dans le stash entre l'etat stashé et le parent 
                     original.quand le stash n'est pas donné,il montre le dernier.par défaut la commande 
                     montre le diffstat mais peut accepter touts les formats connu de git diff.
                     pour voir les autres stash il faut utiliser: git stash show -p stash@{1}
-             </code>
+             </section>
              
-        <h2>Affichage</h2>
-            <code>
-       
+        <h4>Affichage</h4>
+            <code> <div class="code">
+			$ git stash show -p stash@{0} | git apply -R
             </code>
-    <section/>
+            </div>
+    </section>
     
-    
+    </div>
     <footer>        
-        <p>Git Manual - Par Raphaël Muller</p>
+        <p>G© Groupe d'IN202 2014-2015 UVSQ - Article par Raphaël Muller avec l'assistance de C.Briand</p>
     </footer>
 
 </body>
-
+<!--
 commandes à faire:
 
 -git stash drop
@@ -112,3 +125,4 @@ commandes a relire:
 
 -git stash list
 commandes finies:
+-->
