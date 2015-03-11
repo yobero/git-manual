@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <head>
 	<title>Git fetch</title>
 	<meta charset="UTF-8">
@@ -10,81 +10,79 @@
 		<p href="./index.html">Menu</p>
 	</nav>
 	
-	<h1 id="titreCommande">git fetch</h1>
+	<h3 id="titreCommande">git fetch</h3>
+	
+	
+	
+	
+	<h3 id="titreCommande">git fetch -v</h3>
 	
 	<section class="descriptif">
 		<p>Cette commande importe des commits à partir d'un répo
 		 à distance dans votre répo local. Les commits résultants sont
-		  stockés sous forme de branches à distance à la place des
-		   branches locales avec lesquelles vous avez travaillé.</p>
+		 stockés sous forme de branches à distance à la place des
+		  branches locales avec lesquelles vous avez travaillé.</p>
 		<h2>Syntaxe</h2>
 			<code>Exemple de l'affichage de la commande dnas le terminal</code>
 	</section>
 	
-	<section class="exemple">
-		<p>Ecrire ici la commande</p>
-		<h2>Affichage</h2>
-		<code>Exemple de l'affichage de la commande dnas le terminal</code>
-	</section>
 	
-	
-	<h1 id="titreCommande">git fetch -v</h1>
+	<h3 id="titreCommande">git fetch --all</h3>
 	
 	<section class="descriptif">
 		<p>Descriptif de la commande détaillé</p>
-		<h2>Syntaxe</h2>
+		<h4>Syntaxe</h4>
 			<code>Exemple de l'affichage de la commande dnas le terminal</code>
 	</section>
 	
 	<section class="exemple">
 		<p>Ecrire ici la commande</p>
-		<h2>Affichage</h2>
+		<h4>Affichage</h4>
 		<code>Exemple de l'affichage de la commande dnas le terminal</code>
 	</section>
 	
 	
-	<h1 id="titreCommande">git fetch --all</h1>
+	<h3 id="titreCommande">git fetch --dry-run</h3>
 	
 	<section class="descriptif">
 		<p>Descriptif de la commande détaillé</p>
-		<h2>Syntaxe</h2>
+		<h4>Syntaxe</h4>
 			<code>Exemple de l'affichage de la commande dnas le terminal</code>
 	</section>
 	
 	<section class="exemple">
 		<p>Ecrire ici la commande</p>
-		<h2>Affichage</h2>
+		<h4>Affichage</h4>
 		<code>Exemple de l'affichage de la commande dnas le terminal</code>
 	</section>
 	
 	
-	<h1 id="titreCommande">git fetch --dry-run</h1>
+	<h3 id="titreCommande">git fetch -t</h3>
 	
 	<section class="descriptif">
-		<p>Descriptif de la commande détaillé</p>
-		<h2>Syntaxe</h2>
-			<code>Exemple de l'affichage de la commande dnas le terminal</code>
+		<p>Cette commande permet de "fetch" tous les tag des repertoires distant.
+		Attention: <i>git fetch -t</i> ne fait pas la même fonction que la commande <i>git fetch</i>.<br><br>
+		Dans l'exemple ci-dessous, on sera dans le cas où j'ai modifié des fichiers dans le repertoires distants
+		et je n'ai pas pull les changements(dernier commit dans le repertoire distant: +2).</p>
+		<h4>Syntaxe</h4>
+			<code>git fetch -t</code>
 	</section>
 	
 	<section class="exemple">
-		<p>Ecrire ici la commande</p>
-		<h2>Affichage</h2>
-		<code>Exemple de l'affichage de la commande dnas le terminal</code>
-	</section>
-	
-	
-	<h1 id="titreCommande">git fetch -r</h1>
-	
-	<section class="descriptif">
-		<p>Descriptif de la commande détaillé</p>
-		<h2>Syntaxe</h2>
-			<code>Exemple de l'affichage de la commande dnas le terminal</code>
-	</section>
-	
-	<section class="exemple">
-		<p>Ecrire ici la commande</p>
-		<h2>Affichage</h2>
-		<code>Exemple de l'affichage de la commande dnas le terminal</code>
+		<p>git fetch -t</p>
+		<h4>Affichage</h4>
+		<code>git fetch -t <br>
+		remote: counting objects: 6, done.<br>
+		remote: compressing objects: 100% (3/3), done.<br>
+		remote: Toatal 6 (delta 2), reused 5 (deltat 1), pack-reused 0 <br>
+		Unpacking objets: 100% (6/6), done.<br>
+			[chat] master -> orign/master<br><br>
+			
+		git log <br>
+		commit ...<br>
+		Author: x<br>
+		Date: YY<br>
+			+1</code>
 	</section>
 	
 	<footer>		

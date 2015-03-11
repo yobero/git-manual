@@ -9,21 +9,57 @@
 	<nav>
 		<p href="./index.html">Menu</p>
 	</nav>
-	<h1 id="titreCommande">Nom de la commande</h1>
+	
+	<h3 id="titreCommande">git revert</h3>
+	
 	<section class="descriptif">
-		<p>Descriptif de la commande d�taill�</p>
+		<p>La commande permet de rétablir des commits déjà éxistant. Elle sert donc
+		à "remonter le temps" et annuler l'effet de certains commit précédemment fait.<br>
+		En réalité, la commande ne supprime pas le commit choisit mais créé un commit automatique sans
+		les modifications du commit choisit, à ne pas confondre avec <i>git reset</i>. <br>
+		Dans l'exemple, on fera un retour en arrière de 1 commit.</p>
+
 	</section>
 	
 	<section id="affichage">
-		<h2>Syntaxe</h2>
+		<h4>Syntaxe</h4>
+			<code>git revert</code>
+		<h4>Affichage</h4>
+			<code>git revert HEAD<br>
+			[choisir le nom du commit] <br><br>
+			
+			git log <br>
+			commit ...<br>
+			Author: x<br>
+			Date: YY<br>
+				Le commit revert</code>
+	<section/>
+	
+	
+	<h3 id="titreCommande">git revert -e</h3>
+	
+	<section class="descriptif">
+		<p>Cette commande permet d'éditer le nouveau commit qui "supprimera" le commit choisit.<br>
+		La fonction <i>-e</i> ou <i>--edit</i> est l'option par defaut dans un terminal. </p>
+
 	</section>
-	<section class="exemple">
-		<p>Ecrire ici la commande</p>
-		<h2>Affichage</h2>
-		<p>Exemple de l'affichage de la commande dnas le terminal</p>
-	</section>
+	
+	<section id="affichage">
+		<h4>Syntaxe</h4>
+			<code>git revert -e</code>
+		<h4>Affichage</h4>
+			<code>git revert -e HEAD<br>
+			[choisir le nom du commit] <br><br>
+			
+			git log <br>
+			commit ...<br>
+			Author: x<br>
+			Date: YY<br>
+				Le commit revert</code>
+	<section/>
+	
 	<footer>		
-		<p>Git Manual - Par Nom Utilisateur</p>
+		<p>Git Manual - Par stefou, pierre-cauletUVSQ, yobero</p>
 	</footer>
 	
 </body>
