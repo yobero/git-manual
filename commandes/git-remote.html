@@ -106,7 +106,13 @@
 	<h3 id="titreCommande">git remote set-url</h3>
 	
 	<section class="descriptif">
-		<p>DESCIPTION</p>
+	
+		<p>Git remote set-url change l'url pour le remote. Si aucune url n'est déjà présente,
+		la fonction crée une nouvelle url.
+		Par contre si il y a déjà une url et on utilise cette fonction en ne mettant pas le bon nom,
+		alors la console vous affichera une erreur et aucun changement ne sera effectué.
+		</p>
+		
 	</section>
 	
 	<section class="affichage">
@@ -114,7 +120,17 @@
 			<code>git remote set-url</code>
 	
 		<div class="code">
-			<code>git remote set-url <br> </code>
+		
+			<code>$ git remote set-url
+			usage: git remote set-url[--push] <name> <newurl> [<oldurl>]
+			or: git remote set-url --add <name> <newurl>
+			or: git remote set-url--delete <name> <url>
+			
+			--push				manipulate push URLs
+			--add				add URL
+			--delete			delete URLs
+			</code>
+			 <br> </code>
 		</div>
 	</section>
 	
