@@ -2,14 +2,22 @@
 <head>
 	<title>Nom de la commande</title>
 	<meta charset="UTF-8">
-	<link href="css/commandes.css" rel="stylesheet" type"text/css">
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<nav>
-		<p href="./index.html">Menu</p>
-	</nav>
-	
+	<div id="titre"> 
+            <h1> <a href="index.html"> <img src="../images/logo.png" alt="logo" > </img> </a> <br>Nom de la commande</h1>
+    </div>
+        <div id="nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                    </ul>
+                </nav>
+        </div>
+		
+	<div id="corps">
 	<h3 id="titreCommande">git revert</h3>
 	
 	<section class="descriptif">
@@ -22,9 +30,12 @@
 	</section>
 	
 	<section id="affichage">
-		<h4>Syntaxe</h4>
+		<h4>Syntaxe :</h4>
 			<code>git revert</code>
 		<h4>Affichage</h4>
+			<code>git revert HEAD</code>
+		
+			<div class="code">		
 			<code>git revert HEAD<br>
 			[choisir le nom du commit] <br><br>
 			
@@ -33,6 +44,7 @@
 			Author: x<br>
 			Date: YY<br>
 				Le commit revert</code>
+			</div>
 	<section/>
 	
 	
@@ -48,6 +60,7 @@
 		<h4>Syntaxe</h4>
 			<code>git revert -e</code>
 		<h4>Affichage</h4>
+			<div class="code">
 			<code>git revert -e HEAD<br>
 			[choisir le nom du commit] <br><br>
 			
@@ -56,10 +69,12 @@
 			Author: x<br>
 			Date: YY<br>
 				Le commit revert</code>
+			</div>
 	<section/>
 	
+	</div>
 	<footer>		
-		<p>Git Manual - Par stefou, pierre-cauletUVSQ, yobero</p>
+		<p> © Groupe d'IN202 2014-2015 UVSQ - Par nom des participants</p>
 	</footer>
 	
 </body>

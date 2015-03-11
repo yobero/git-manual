@@ -2,24 +2,33 @@
 <head>
 	<title>Git remote</title>
 	<meta charset="UTF-8">
-	<link href="css/commandes.css" rel="stylesheet" type"text/css">
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<nav>
-		<p href="./index.html">Menu</p>
-	</nav>
-	
-	<h3 id="titreCommande">git remote</h3>
-	
+	  <div id="titre"> 
+            <h1> <a href="index.html"> <img src="../images/logo.png" alt="logo" > </img> </a> <br>Nom de la commande</h1>
+        </div>
+        <div id="nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                    </ul>
+                </nav>
+        </div>
+		
+    <div id="corps">
 	<section class="descriptif">
 		<p>La commande permet d'afficher la ou les branches qui vous suivent 
 		   lorsque vous commitez</p>
-		<h4>Syntaxe</h4>
-			<code>git remote</code>
-	</section>
+	</section>	   
 	
-	<section class="exemple">
+	<section class="affichage">
+		<h4>Syntaxe</h4>
+			<div class="code">
+			<code>git remote</code>
+			</div>
+	
 		<h4>Affichage</h4>
 			<code>git remote <br> origin</code>
 	</section>
@@ -31,16 +40,18 @@
 		<p>La commande permet d'ajouter un depot à un nomCourt pour faciliter son utilisation <br>
 		   Ensuite, si vous voulez recuperer des information sur un URL et que vous ayez utilise <i>git remote add</i> <br>
 		   vous pouvez utiliser le nomCourt lié à cette URL en utiilisant la commande <i>git fetch nomCourt</i></p>
-		<h4>Syntaxe</h4>
-			<code>git remote add</code>
 	</section>
 	
-	<section class="exemple">
-		<h4>Affichage</h4>
+	<section class="affichage">
+		<h4>Syntaxe</h4>
+			<code>git remote add</code>
+	
+			<div class="code">
 			<code>git remote add [nom] [URL] <br> nom URL <br><br>
 			Autre exemple <br>
 			git remote add test https://github.com/nomUtilisateur/projetX <br>
 			test https://github.com/nomUtilisateur/projetX</code>
+			</div>
 	</section>
 	
 	
@@ -49,17 +60,19 @@
 	<section class="descriptif">
 		<p>Cette commande permet de renomer de nomCourt pour à autre nom. On va reprendre l'exemple précédant. <br>
 		Vous pouvez toujours supprimer la réference avec la commmande <i>git remote rm nomCourt </i></p>
+		</section>
+		
+		<section class="affichage">
 		<h4>Syntaxe</h4>
 			<code>git remote rename ancienNomCourt nouceauNomCourt</code>
-	</section>
 	
-	<section class="exemple">
-		<h4>Affichage</h4>
+		<div class="code">
 			<code>git remote add test https://github.com/nomUtilisateur/projetX <br>
 			test https://github.com/nomUtilisateur/projetX <br>
 			git remote <br> origin <br> test <br> <br>
 			git remote rename test pjtX <br>
 			git remote <br> origin <br> pjtX</code>
+		</div>
 	</section>
 	
 	
@@ -67,13 +80,16 @@
 	
 	<section class="descriptif">
 		<p>DESCIPTION</p>
-		<h4>Syntaxe</h4>
-			<code>git remote remove</code>
+		
 	</section>
 	
-	<section class="exemple">
-		<h4>Affichage</h4>
+	<section class="affichage">
+		<h4>Syntaxe</h4>
+			<code>git remote remove</code>
+	
+		<div class="code">
 			<code>git remote rename <br> </code>
+		</div>
 	</section>
 	
 	
@@ -81,17 +97,20 @@
 	
 	<section class="descriptif">
 		<p>DESCIPTION</p>
+	</section>
+	
+	<section class="affichage">
 		<h4>Syntaxe</h4>
 			<code>git remote set-url</code>
-	</section>
 	
-	<section class="exemple">
-		<h4>Affichage</h4>
+		<div class="code">
 			<code>git remote set-url <br> </code>
+		</div>
 	</section>
 	
+	</div>
 	<footer>		
-		<p>Git Manual - Par LowD, Ousam, yobero</p>
+		<p> © Groupe d'IN202 2014-2015 UVSQ - Par nom des participants</p>
 	</footer>
 	
 </body>
