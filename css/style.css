@@ -185,3 +185,14 @@ footer p{
 	border : solid 2px grey;
 	padding: 5px;
 	}
+
+#titre img{
+
+	width: 150px;
+	height: 150px;
+}
+
+#titre a {
+	text-decoration: none;
+	}
+
