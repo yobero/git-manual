@@ -18,7 +18,7 @@
 		  stockés sous forme de branches à distance à la place des
 		   branches locales avec lesquelles vous avez travaillé.</p>
 		<h2>Syntaxe</h2>
-			<code>Exemple de l'affichage de la commande dnas le terminal</code>
+			<code>git fetch</code>
 	</section>
 	
 	<section class="exemple">
@@ -49,13 +49,19 @@
 	<section class="descriptif">
 		<p>Cette commande permet de "fetch" toutes les branches à distance.</p>
 		<h2>Syntaxe</h2>
-			<code>Exemple de l'affichage de la commande dnas le terminal</code>
+			<code>git fetch --all</code>
 	</section>
 	
 	<section class="exemple">
 		<p>git fetch --all</p>
 		<h2>Affichage</h2>
-		<code>Exemple de l'affichage de la commande dnas le terminal</code>
+		<code>Fetching origin
+		From ssh://gerrit.wikimedia.org:29418/integration/jenkins
+		c75cd9d..4956b35 master		-> origin/master
+		Fetching gerrit
+		From ssh://gerrit.wikimedia.org:29418/integration/jenkins
+		c75cd9d..4956b35 master		-> origin/master
+		</code>
 	</section>
 	
 	
@@ -65,13 +71,14 @@
 		<p>Cette commande vous montre le résultat d'un "fetch" en ne
 		modifiant rien, elle est utilisée simplement pour simuler une action.</p>
 		<h2>Syntaxe</h2>
-			<code>Exemple de l'affichage de la commande dnas le terminal</code>
+			<code>git fetch --dry-run</code>
 	</section>
 	
 	<section class="exemple">
 		<p>git fetch --dry-run</p>
 		<h2>Affichage</h2>
-		<code>Exemple de l'affichage de la commande dnas le terminal</code>
+		<code>[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*</code>
 	</section>
 	
 	
