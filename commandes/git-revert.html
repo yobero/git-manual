@@ -74,7 +74,7 @@
 				<h3 id="titreCommande">git revert -n</h3>
 	
 	<section class="descriptif">
-		<p>Normalement la commande git revert crée automatiquement des commit dont les messages renseignent les commit annulés. Ici, on annule effectivement les commit désirés dans le répertoire git et l'index, mais on ne crée pas de comit.De plus, l'index n'as pas à correspondre avec le commit HEAD (utile notamment lorsque l'on a effecué un git revert de plusieurs commit touchant a l'index d'afilée).</p>
+		<p>Normalement la commande git revert crée automatiquement un commit dont le message renseigne le(s) commit annulé(s). Ici, on annule effectivement les commit désirés dans le répertoire git, mais on ne crée pas de nouveau commit.</p>
 
 	</section>
 	
@@ -89,7 +89,7 @@
 Author: Utilisateur <user@lubuntu-13.04>
 Date:   Thu Mar 12 14:18:04 2015 +0100
 
-    Revert "Commit a revert"
+    Revert "Commit à revert"
     
     This reverts commit 7ecb55bfab82fa105c68d72b61cef11694c28a1d.
 
@@ -97,7 +97,7 @@ commit 7ecb55bfab82fa105c68d72b61cef11694c28a1d
 Author: Utilisateur <user@lubuntu-13.04>
 Date:   Thu Mar 12 14:16:24 2015 +0100
 
-    Commit a revert
+    Commit à revert
 
 </code>
 			</div>
