@@ -45,7 +45,7 @@
                         </div>
         </section>
           <section class="descriptif">
-                <p>git rebase --onto</p>
+                <p>git rebase --onto <new base></p>
               <!--Cette commande permet de redéfinir un nouveau point d'origine pour tout les nouveaux commits.
               Ce nouveau point peut être initialisé à partir de n'importe quelle commit valide.-->
         </section>
