@@ -21,12 +21,48 @@
 	<h3 id="titreCommande">git fetch</h3>
 	
 	  <section class="descriptif">
-                <p>Description</p>
+                <p>Cette commande importe des commits à partir d'un répo
+				à distance dans votre répo local. Les commits résultants sont
+				stockés sous forme de branches à distance à la place des
+				branches locales avec lesquelles vous avez travaillé.</p>
         </section>
 
         <section class="affichage">
             <h4>Syntaxe :</h4>
                         <code>Syntaxe d'utilisation de la commande</code>
+
+                        <div class="code">
+                            <code>git fetch<br>
+							[remote "origin"]<br>
+							fetch = +refs/heads/*:refs/remotes/origin/*</code>
+                        </div>
+        </section>
+		
+		<h3 id="titreCommande">git fetch --all</h3>
+	
+	  <section class="descriptif">
+                <p>Cette commande permet de "fetch" toutes les branches à distance.</p>
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>git fetch --all</code>
+
+                        <div class="code">
+                            <code>Exemple d'affichage dans le terminal</code>
+                        </div>
+        </section>
+		
+		<h3 id="titreCommande">git fetch --dry-run</h3>
+	
+	  <section class="descriptif">
+                <p>Cette commande vous montre le résultat d'un "fetch" en ne 
+				modifiant rien, elle est utilisée simplement pour simuler une action.</p>
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>git fetch --all</code>
 
                         <div class="code">
                             <code>Exemple d'affichage dans le terminal</code>
