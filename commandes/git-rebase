@@ -72,7 +72,20 @@ Applying: F2b</code>
                         <code>Syntaxe d'utilisation de la commande</code>
 
                         <div class="code">
-                            <code>Exemple d'affichage dans le terminal</code>
+                            <code>pick 01d1124 Adding license
+pick 6340aaa Moving license into its own file
+pick ebfd367 Jekyll has become self-aware.
+pick 30e0ccb Changed the tagline in the binary, too.
+
+# Rebase 60709da..30e0ccb onto 60709da
+#
+# Commands:
+#  p, pick = use commit
+#  e, edit = use commit, but stop for amending
+#  s, squash = use commit, but meld into previous commit
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+# However, if you remove everything, the rebase will be aborted.</code>
                         </div>
         </section>
           <section class="descriptif">
