@@ -1,0 +1,94 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>git rebase</title>
+        <meta charset="UTF-8">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div id="titre"> 
+            <h1> <a href="../index.html"> <img src="../images/logo.png" alt="logo" > </img> </a> <br>Nom de la commande</h1>
+        </div>
+        <div id="nav">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Accueil</a></li>
+                    </ul>
+                </nav>
+        </div>
+        <div id="corps">
+        <section class="descriptif">
+                <p>git rebase</p>
+              <!--Description de la commande -->
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>Syntaxe d'utilisation de la commande</code>
+
+                        <div class="code">
+                            <code>Exemple d'affichage dans le terminal</code>
+                        </div>
+        </section>
+          <section class="descriptif">
+                <p>git rebase --abort</p>
+              <!--Description de la commande -->
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>Syntaxe d'utilisation de la commande</code>
+
+                        <div class="code">
+                            <code>Exemple d'affichage dans le terminal</code>
+                        </div>
+        </section>
+          <section class="descriptif">
+                <p>git rebase --onto</p>
+              <!--Description de la commande -->
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>Syntaxe d'utilisation de la commande</code>
+
+                        <div class="code">
+                            <code>Exemple d'affichage dans le terminal</code>
+                        </div>
+        </section>
+          <section class="descriptif">
+                <p>git rebase -i</p>
+              <!--Description de la commande -->
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>Syntaxe d'utilisation de la commande</code>
+
+                        <div class="code">
+                            <code>Exemple d'affichage dans le terminal</code>
+                        </div>
+        </section>
+          <section class="descriptif">
+                <p>git rebase --continue </p>
+              <!--Description de la commande -->
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>Syntaxe d'utilisation de la commande</code>
+
+                        <div class="code">
+                            <code>Exemple d'affichage dans le terminal</code>
+                        </div>
+        </section>
+
+
+    </div>
+    <footer>
+    <p> © Groupe d'IN202 2014-2015 UVSQ - Lebataclan, LowD, Mr-Nico-972</p>
+    </footer>
+    </body>
+
+</html>
