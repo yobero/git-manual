@@ -55,7 +55,9 @@
                         <code>Syntaxe d'utilisation de la commande</code>
 
                         <div class="code">
-                            <code>Exemple d'affichage dans le terminal</code>
+                            <code>First, rewinding head to replay your work on top of it...
+Applying: F2a
+Applying: F2b</code>
                         </div>
         </section>
           <section class="descriptif">
