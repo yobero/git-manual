@@ -46,7 +46,8 @@
         </section>
           <section class="descriptif">
                 <p>git rebase --onto</p>
-              <!--Description de la commande -->
+              <!--Cette commande permet de redéfinir un nouveau point d'origine pour tout les nouveaux commits.
+              Ce nouveau point peut être initialisé à partir de n'importe quelle commit valide.-->
         </section>
 
         <section class="affichage">
@@ -59,7 +60,9 @@
         </section>
           <section class="descriptif">
                 <p>git rebase -i</p>
-              <!--Description de la commande -->
+              <!--Cette commande présente une liste de tous les commits qui sont sur le point d'être "rebase".
+              Cela permet à l'utilisateur de modifier la liste avec qu'elle ne soit "rebase". Cette commande
+              peut également être utilisée pour séparer certains commits.-->
         </section>
 
         <section class="affichage">
